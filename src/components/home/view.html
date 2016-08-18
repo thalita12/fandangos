@@ -1,0 +1,33 @@
+<section>
+
+    <h3 class="ef-titulo-pagina">Bem-vindo, {{usuarioAtual}}</h3>
+
+    <div class="ef-inicio">
+
+        <div class="ef-inicio__area ef-inicio__area-quadro">
+            <div class="ef-inicio__quadro-texto">
+                <p>Você está acessando o E-fornecedor</p>
+                <p>Ferramenta para gerenciamento de fornecedores do</p>
+                <p>Governo do Estado do Mato Grosso do Sul</p>
+            </div>
+            <img class="ef-inicio__quadro-imagem" src="themes/images/home-img.svg" alt="Você está no E-FORNECEDOR">
+        </div>
+
+        <div class="ef-inicio__area ef-inicio__area-atalho">
+            <div class="ef-titulo-padrao">No E-fornecedor você pode:</div>
+
+            <div class="ef-inicio__atalho">
+                <p class="ef-inicio__atalho-descricao">Consultar o resultado das análises de cadastro realizadas</p>
+                <span class="ef-inicio__atalho-icone ef-icon-analise"></span>
+            </div>
+            <div class="ef-inicio__atalho-btn" ng-click="consultarClick()">Ir para Consulta de Análises</div>
+            <div class="ef-inicio__atalho">
+                <p class="ef-inicio__atalho-descricao">Realizar o cadastro básico de pendências para utilização nas análises</p>
+                <span class="ef-inicio__atalho-icone ef-icon-cadastro"></span>
+            </div>
+            <div class="ef-inicio__atalho-btn" ng-click="pendenciasClick()">Ir para Cadastro de Pendências</div>
+        </div>
+
+    </div>
+
+</section>

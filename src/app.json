@@ -1,0 +1,27 @@
+{
+  "name": "fandangos",
+  "version": "1.0.0",
+  "copyright": "2016 © fandangos - Todos os direitos reservados.",
+  "paths": {
+    "lego": "base/lego/src",
+    "jszip": "base/kendoui/js/jszip.min"
+  },
+  "shim": {
+    "jszip": [
+      "jquery"
+    ]
+  },
+  "bases": {
+    "vendorLibs": [
+      {"name": "jszip"}
+    ],
+    "legoLibs": [
+      {"name": "lego/layout/menu/main"},
+      {"name": "lego/layout/alterar-idioma/main"},
+      {"name": "lego/layout/template/main"}
+    ]
+  },
+  "components": [
+    "home"
+  ]
+}
