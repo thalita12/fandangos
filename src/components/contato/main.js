@@ -1,35 +1,35 @@
 /**
  * @license Todos os direitos reservados a AZ Informática.
  * @ngdoc overview
- * @name faHome
+ * @name moContato
  *
  * @description
- * Componente responsável pela página home da aplicação.
+ * Componente responsável pela página contato da aplicação.
  *
  */
-define(['text!home/view.html'], function (view) {
+define(['text!contato/view.html'], function (view) {
 
     return {
 
         initialize: function (thisComponent) {
 
-            thisComponent.name = 'faHome';
+            thisComponent.name = 'efContato';
 
             thisComponent.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
-                $urlRouterProvider.otherwise('/home');
-                $stateProvider.state('container.private.home', {
-                    url: '^/home',
+                $urlRouterProvider.otherwise('/contato');
+                $stateProvider.state('container.public.contato', {
+                    url: '^/contato',
                     views: {
                         content: {
                             template: view,
-                            controller: 'faHomeController'
+                            controller: 'efContatoController'
                         }
                     },
-                    id: 'home'
+                    id: 'contato'
                 });
             }]);
 
-            thisComponent.controller('faHomeController', ['$scope', function ($scope) {
+            thisComponent.controller('efContatoController', ['$scope', function ($scope) {
 
             }]);
 
@@ -40,18 +40,18 @@ define(['text!home/view.html'], function (view) {
                 return deffered.promise;
             });
 
-            thisComponent.run(['azMenuService', function (azMenuService) {
+            /*thisComponent.run(['azMenuService', function (azMenuService) {
 
                 azMenuService.addMenu({
                     id: 'home',
                     position: 0,
                     label: 'Início',
                     href: '#',
-                    class: 'fa-icon fa-icon-home',
+                    class: 'ef-icon ef-icon-home',
                     state: 'container.private.home'
                 });
 
-            }]);
+            }]);*/
         }
     };
 });
