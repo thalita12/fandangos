@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "sigla": "pt-BR",
+    "nome": "Português"
+  },
+  {
+    "id": 2,
+    "sigla": "en-US",
+    "nome": "Inglês"
+  },
+  {
+    "id": 3,
+    "sigla": "es-ES",
+    "nome": "Espanhol"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "language": "en-US",
+  "dictionary": {
+    "GERAL": {},
+    "EXCEPTION": {
+      "BR.COM.AZI.EFCAZ.EXCEPTION.NULLANALISECADASTROPESSOAEXCEPTION": "Inconsistency in the analysis or does not exist!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.NULLMODELOPENDENCIAEXCEPTION": "Inconsistency in the pending model or does not exist!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.ANALISECADASTROPESSOADELETEEXCEPTION": "Error deleting analysis! Contact your system administrator!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.ANALISECADASTROPESSOAFINALIZADAEXCEPTION": "Analysis already completed!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.GENERICEFCAZEXCEPTION": "An error occurred while performing the operation! Contact your system administrator!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.INSERIRANALISEDADOINVALIDOEXCEPTION": "Invalid data entry in the analysis!"
+    }
+  }
+}

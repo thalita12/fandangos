@@ -1,0 +1,14 @@
+{
+  "language": "es-ES",
+  "dictionary": {
+    "GERAL": {},
+    "EXCEPTION": {
+      "BR.COM.AZI.EFCAZ.EXCEPTION.NULLANALISECADASTROPESSOAEXCEPTION": "La inconsistencia en el análisis o no existe!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.NULLMODELOPENDENCIAEXCEPTION": "La inconsistencia en el modelo pendiente o no existe!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.ANALISECADASTROPESSOADELETEEXCEPTION": "Error cuando se elimina el análisis! Póngase en contacto con el administrador del sistema!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.ANALISECADASTROPESSOAFINALIZADAEXCEPTION": "Análisis ya se ha completado!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.GENERICEFCAZEXCEPTION": "Se ha producido un error al realizar la operación! Póngase en contacto con el administrador del sistema!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.INSERIRANALISEDADOINVALIDOEXCEPTION": "la entrada de datos no válido en el análisis!"
+    }
+  }
+}

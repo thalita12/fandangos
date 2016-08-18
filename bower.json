@@ -29,6 +29,8 @@
     "jquery": "~2.1.4",
     "bootstrap": "~3.3.6",
     "kendoui": "git@git.azi.com.br:az-reuso/kendoui.git#v2015.3.1116",
+    "legolas": "git@git.azi.com.br:framework/legolas.git#1.0.x",
+    "modeler": "git@git.azi.com.br:framework/modeler.git#1.0.x",
     "lego": "git@git.azi.com.br:framework/lego.git#1.0.x"
   }
 }

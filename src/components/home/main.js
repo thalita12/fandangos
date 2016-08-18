@@ -29,19 +29,16 @@ define(['text!home/view.html'], function (view) {
                 });
             }]);
 
-            thisComponent.controller('efHomeController', ['$scope', 'azPeregrinSession', '$window', function ($scope, azPeregrinSession, $window) {
-                $scope.leiaMais = false;
+            thisComponent.controller('efHomeController', ['$scope', function ($scope) {
 
-                $scope.usuarioAtual = azPeregrinSession.userName;
-
-                $scope.consultarClick = function () {
-                    $window.location.href = '#/consultaAnalise';
-                };
-
-                $scope.pendenciasClick = function () {
-                    $window.location.href = '#/modelo-pendencia';
-                };
             }]);
+
+            thisComponent.beforeInitialize('azperegrin', function(module, $q){
+                module.constant('azPeregrinSession', {});
+                var deffered = $q.defer();
+                deffered.resolve();
+                return deffered.promise;
+            });
 
             thisComponent.run(['azMenuService', function (azMenuService) {
 

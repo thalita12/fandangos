@@ -1,0 +1,14 @@
+{
+  "language": "pt-BR",
+  "dictionary": {
+    "GERAL": {},
+    "EXCEPTION": {
+      "BR.COM.AZI.EFCAZ.EXCEPTION.NULLANALISECADASTROPESSOAEXCEPTION": "Inconsistência na análise ou não existe!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.NULLMODELOPENDENCIAEXCEPTION": "Inconsistência no modelo de pendência ou não existe!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.ANALISECADASTROPESSOADELETEEXCEPTION": "Erro ao excluir análise! Contate o administrador do sistema!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.ANALISECADASTROPESSOAFINALIZADAEXCEPTION": "Análise já finalizada!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.GENERICEFCAZEXCEPTION": "Ocorreu um erro ao realizar a operação! Contate o administrador do sistema!",
+      "BR.COM.AZI.EFCAZ.EXCEPTION.INSERIRANALISEDADOINVALIDOEXCEPTION": "Inserção de dados inválidos na análise!"
+    }
+  }
+}
