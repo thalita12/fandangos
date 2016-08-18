@@ -1,7 +1,7 @@
 /**
  * @license Todos os direitos reservados a AZ Informática.
  * @ngdoc overview
- * @name moContato
+ * @name faContato
  *
  * @description
  * Componente responsável pela página contato da aplicação.
@@ -13,7 +13,7 @@ define(['text!contato/view.html'], function (view) {
 
         initialize: function (thisComponent) {
 
-            thisComponent.name = 'efContato';
+            thisComponent.name = 'faContato';
 
             thisComponent.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
                 $urlRouterProvider.otherwise('/contato');
@@ -22,14 +22,14 @@ define(['text!contato/view.html'], function (view) {
                     views: {
                         content: {
                             template: view,
-                            controller: 'efContatoController'
+                            controller: 'faContatoController'
                         }
                     },
                     id: 'contato'
                 });
             }]);
 
-            thisComponent.controller('efContatoController', ['$scope', function ($scope) {
+            thisComponent.controller('faContatoController', ['$scope', function ($scope) {
 
             }]);
 
@@ -40,18 +40,6 @@ define(['text!contato/view.html'], function (view) {
                 return deffered.promise;
             });
 
-            /*thisComponent.run(['azMenuService', function (azMenuService) {
-
-                azMenuService.addMenu({
-                    id: 'home',
-                    position: 0,
-                    label: 'Início',
-                    href: '#',
-                    class: 'ef-icon ef-icon-home',
-                    state: 'container.private.home'
-                });
-
-            }]);*/
         }
     };
 });

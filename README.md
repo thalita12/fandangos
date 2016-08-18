@@ -8,6 +8,9 @@ Projeto exemplo de como utilizar o padrão SMACSS e o componente Lego.
 
 * [Pré-requisitos](#pr%C3%A9-requisitos "Pré-requisitos para a execução deste projeto")
 * [Instalação](#instala%C3%A7%C3%A3o "Como instalar o projeto")
+* [Construção](#constru%C3%A7%C3%A3o "Como construir o projeto")
+    * [Gerar CSS compilado](#gerar-css-compilado "Compilar LESS")
+    * [Construção completa](#constru%C3%A7%C3%A3o-completa "Construção completa")
 * [Como usar](#como-usar "Como utilizar o projeto")
 * [Notas de release](#notas-de-release "Notas de release do projeto")
 * [Issues](#issues "Issues do projeto")
@@ -57,13 +60,13 @@ Durante a construção da aplicação são realizadas diversas tarefas tais como
 - Junção dos arquivos JS.
 - Geração dos arquivos de CSS compilados.
 
-### Compilar os arquivos de estilo LESS
+### Gerar CSS compilado
 
 ```shell
 grunt style
 ```
 
-### Construção completa (documentação, testes unitários e minificação)
+### Construção completa
 
 ```shell
 grunt dist  | grunt
