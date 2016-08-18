@@ -1,0 +1,73 @@
+{
+  "name": "fandangos",
+  "version": "1.0.0",
+  "description": "Projeto exemplo de como utilizar o padrão SMACSS e o componente Lego.",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server src -a 0.0.0.0 -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "dist": "dist",
+    "src": "src",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angular/angular-seed.git"
+  },
+  "keywords": [
+    "less",
+    "smacss",
+    "lego",
+    "style",
+    "fandangos"
+  ],
+  "author": "troliveira@azi.com.br",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angular/angular-seed/issues"
+  },
+  "homepage": "https://github.com/angular/angular-seed#readme",
+  "devDependencies": {
+    "bower": "^1.7.1",
+    "eslint-config-standard": "^4.4.0",
+    "eslint-plugin-standard": "^1.3.1",
+    "grunt": "^0.4.5",
+    "grunt-concat-css": "^0.3.1",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-compress": "^0.14.0",
+    "grunt-contrib-copy": "^0.8.1",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-requirejs": "^0.4.4",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jsdoc": "^0.6.8",
+    "grunt-karma": "^2.0.0",
+    "grunt-ngdocs": "^0.2.9",
+    "grunt-sonar-runner": "^2.4.4",
+    "gruntify-eslint": "^1.3.0",
+    "http-server": "^0.6.1",
+    "jasmine-ajax": "^3.2.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-coverage": "^1.1.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-jasmine-ajax": "^0.1.13",
+    "karma-junit-reporter": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "karma-requirejs": "^1.0.0",
+    "karma-safari-launcher": "^1.0.0",
+    "load-grunt-tasks": "^3.4.1",
+    "path": "^0.12.7",
+    "phantomjs": "^1.9.19",
+    "requirejs": "^2.1.15",
+    "shelljs": "^0.2.6",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "glob": "^7.0.3"
+  }
+}

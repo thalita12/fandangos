@@ -1,0 +1,34 @@
+{
+  "name": "fandangos",
+  "homepage": "https://github.com/angular/angular-seed",
+  "authors": [
+    "troliveira <troliveira@azi.com.br>"
+  ],
+  "description": "Projeto exemplo de como utilizar o padrão SMACSS e o componente Lego.",
+  "main": [
+    "./src/index.html",
+    "./src/app.js",
+    "./src/app.css"
+  ],
+  "keywords": [
+    "less",
+    "smacss",
+    "lego",
+    "style"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.x",
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "kendoui": "git@git.azi.com.br:az-reuso/kendoui.git#v2015.3.1116",
+    "lego": "git@git.azi.com.br:framework/lego.git#1.0.x"
+  }
+}
