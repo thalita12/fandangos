@@ -11,8 +11,10 @@ module.exports = {
     default: {
         options: {
             modifyVars: {
-                'az-primary-color': '#F04903',
-                'az-primary-font-color-hover': '#F29B34',
+                'az-primary-color': '#59AE7F',
+                'az-primary-color-hover': '#8cc7a7',
+                'az-primary-color-active': '#4F8677',
+                'az-primary-font-color-hover': '#ffffff',
                 'az-primary-font-color': '#ffffff',
                 'az-secondary-font-color': '#ffffff',
                 'az-theme-folder': 'default'

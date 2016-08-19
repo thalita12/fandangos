@@ -1,35 +1,35 @@
 /**
  * @license Todos os direitos reservados a AZ Informática.
  * @ngdoc overview
- * @name faContato
+ * @name faBiblioteca
  *
  * @description
- * Componente responsável pela página contato da aplicação.
+ * Componente responsável pela página biblioteca da aplicação.
  *
  */
-define(['text!contato/view.html'], function (view) {
+define(['text!biblioteca/view.html'], function (view) {
 
     return {
 
         initialize: function (thisComponent) {
 
-            thisComponent.name = 'faContato';
+            thisComponent.name = 'faBiblioteca';
 
             thisComponent.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
-                $urlRouterProvider.otherwise('/contato');
-                $stateProvider.state('container.public.contato', {
-                    url: '^/contato',
+                $urlRouterProvider.otherwise('/biblioteca');
+                $stateProvider.state('container.private.biblioteca', {
+                    url: '^/biblioteca',
                     views: {
                         content: {
                             template: view,
-                            controller: 'faContatoController'
+                            controller: 'faBibliotecaController'
                         }
                     },
-                    id: 'contato'
+                    id: 'biblioteca'
                 });
             }]);
 
-            thisComponent.controller('faContatoController', ['$scope', function ($scope) {
+            thisComponent.controller('faBibliotecaController', ['$scope', function ($scope) {
 
             }]);
 
@@ -43,12 +43,12 @@ define(['text!contato/view.html'], function (view) {
             thisComponent.run(['azMenuService', function (azMenuService) {
 
                 azMenuService.addMenu({
-                    id: 'contato',
-                    position: 3,
-                    label: 'Contato',
+                    id: 'biblioteca',
+                    position: 2,
+                    label: 'Biblioteca',
                     href: '#',
-                    class: 'fa-icon fa-icon-empresa',
-                    state: 'container.public.contato'
+                    class: 'fa-icon fa-icon-home',
+                    state: 'container.private.biblioteca'
                 });
 
             }]);

@@ -22,7 +22,9 @@
     ]
   },
   "components": [
-    "home",
-    "contato"
+    "smacss",
+    "contato",
+    "less",
+    "biblioteca"
   ]
 }

@@ -1,35 +1,35 @@
 /**
  * @license Todos os direitos reservados a AZ Informática.
  * @ngdoc overview
- * @name faContato
+ * @name faAula
  *
  * @description
- * Componente responsável pela página contato da aplicação.
+ * Componente responsável pela página home da aplicação.
  *
  */
-define(['text!contato/view.html'], function (view) {
+define(['text!less/view.html'], function (view) {
 
     return {
 
         initialize: function (thisComponent) {
 
-            thisComponent.name = 'faContato';
+            thisComponent.name = 'faLess';
 
             thisComponent.config(['$stateProvider', '$urlRouterProvider', function ($stateProvider, $urlRouterProvider) {
-                $urlRouterProvider.otherwise('/contato');
-                $stateProvider.state('container.public.contato', {
-                    url: '^/contato',
+                $urlRouterProvider.otherwise('/less');
+                $stateProvider.state('container.private.less', {
+                    url: '^/less',
                     views: {
                         content: {
                             template: view,
-                            controller: 'faContatoController'
+                            controller: 'faLessController'
                         }
                     },
-                    id: 'contato'
+                    id: 'less'
                 });
             }]);
 
-            thisComponent.controller('faContatoController', ['$scope', function ($scope) {
+            thisComponent.controller('faLessController', ['$scope', function ($scope) {
 
             }]);
 
@@ -43,12 +43,12 @@ define(['text!contato/view.html'], function (view) {
             thisComponent.run(['azMenuService', function (azMenuService) {
 
                 azMenuService.addMenu({
-                    id: 'contato',
-                    position: 3,
-                    label: 'Contato',
+                    id: 'less',
+                    position: 0,
+                    label: 'LESS',
                     href: '#',
                     class: 'fa-icon fa-icon-empresa',
-                    state: 'container.public.contato'
+                    state: 'container.private.less'
                 });
 
             }]);

@@ -180,18 +180,19 @@ td,
 th {
   padding: 0;
 }
+html {
+  position: relative;
+  min-height: 100%;
+}
 .fa-body {
-  margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 60px;
   background: transparent;
   color: #444444;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto 60px;
 }
 @media (max-width: 700px) {
   .fa-body {
-    background: #ffffff !important;
+    background: #ffffff;
   }
 }
 * {
@@ -4007,6 +4008,55 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .fa-icon-analise:before {
   content: "\e90b";
 }
+.fa-conteudo {
+  text-align: justify;
+  display: block;
+  height: auto;
+  padding: 0 40px 0 10px;
+}
+.fa-area-subtitulo {
+  margin: 50px auto;
+}
+.fa-area-texto {
+  margin-top: 25px;
+}
+.fa-destaque-codigo {
+  height: 50px;
+  width: 100%;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  display: -webkit-flex;
+  padding: 30px;
+}
+.fa-destaque-codigo p {
+  margin: 0;
+}
+.fa-imagem {
+  width: auto;
+}
+img.fa-imagem-pequena {
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+img.fa-imagem-grande {
+  max-width: 800px;
+  max-height: 800px;
+  width: auto;
+  height: auto;
+}
+/*.fa-area {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #0F6177;
+  background-color: #FFFEF5;
+  padding: 40px;
+}*/
 span.form-control,
 div.form-control {
   padding: 0px !important;
@@ -4137,7 +4187,7 @@ div.form-control {
   cursor: pointer;
 }
 .az-aside {
-  width: 85px;
+  width: 70px;
   height: 100%;
   position: fixed;
   top: 60px;
@@ -4150,7 +4200,7 @@ div.form-control {
 .az-aside__item {
   text-align: center;
   position: relative;
-  margin: 20px auto;
+  margin: 30px auto;
   cursor: pointer;
 }
 .az-aside__subitem {
@@ -4172,8 +4222,8 @@ div.form-control {
   cursor: pointer;
 }
 .az-area-item {
-  margin-top: -65px;
-  left: 86px;
+  margin-top: -57px;
+  left: 70px;
   position: absolute;
   z-index: 1000;
   border-width: 1px;
@@ -4181,7 +4231,7 @@ div.form-control {
   padding: 0;
 }
 .az-area-subitem {
-  margin-top: -40px;
+  margin-top: -31px;
   z-index: 2;
   position: absolute;
   border-width: 1px;
@@ -4200,14 +4250,13 @@ div.form-control {
   text-align: center !important;
   margin: 0 auto;
 }
-.az-aside .az-aside__item .az-menu-link,
-.az-aside .az-area-item .az-menu-link {
-  font-size: 13px !important;
-}
 .az-aside .az-menu-link .glyphicon.glyphicon-plus,
 .az-aside .az-menu-link .glyphicon.glyphicon-minus {
   font-size: 8px;
   top: 0;
+}
+.az-aside li.az-aside__item:first-child {
+  margin-top: 20px;
 }
 @media (max-width: 945px) {
   .az-aside {
