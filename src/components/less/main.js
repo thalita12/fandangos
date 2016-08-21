@@ -47,7 +47,7 @@ define(['text!less/view.html'], function (view) {
                     position: 0,
                     label: 'LESS',
                     href: '#',
-                    class: 'fa-icon fa-icon-empresa',
+                    class: 'fa-icone glyphicon glyphicon-thumbs-up',
                     state: 'container.private.less'
                 });
 

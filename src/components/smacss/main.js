@@ -47,7 +47,7 @@ define(['text!smacss/view.html'], function (view) {
                     position: 1,
                     label: 'SMACSS',
                     href: '#',
-                    class: 'fa-icon fa-icon-home',
+                    class: 'fa-icone glyphicon glyphicon-folder-open',
                     state: 'container.private.smacss'
                 });
 
