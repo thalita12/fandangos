@@ -47,7 +47,7 @@ define(['text!contato/view.html'], function (view) {
                     position: 3,
                     label: 'Contato',
                     href: '#',
-                    class: 'fa-icon fa-icon-empresa',
+                    class: 'fa-icone glyphicon glyphicon-phone-alt',
                     state: 'container.public.contato'
                 });
 

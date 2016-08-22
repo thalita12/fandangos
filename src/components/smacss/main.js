@@ -1,10 +1,10 @@
 /**
  * @license Todos os direitos reservados a AZ Informática.
  * @ngdoc overview
- * @name faHome
+ * @name faSmacss
  *
  * @description
- * Componente responsável pela página home da aplicação.
+ * Componente responsável pela página smacss da aplicação.
  *
  */
 define(['text!smacss/view.html'], function (view) {
@@ -47,7 +47,7 @@ define(['text!smacss/view.html'], function (view) {
                     position: 1,
                     label: 'SMACSS',
                     href: '#',
-                    class: 'fa-icon fa-icon-home',
+                    class: 'fa-icone glyphicon glyphicon-folder-open',
                     state: 'container.private.smacss'
                 });
 

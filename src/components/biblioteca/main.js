@@ -47,7 +47,7 @@ define(['text!biblioteca/view.html'], function (view) {
                     position: 2,
                     label: 'Biblioteca',
                     href: '#',
-                    class: 'fa-icon fa-icon-home',
+                    class: 'fa-icone glyphicon glyphicon-book',
                     state: 'container.private.biblioteca'
                 });
 

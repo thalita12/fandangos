@@ -1,10 +1,10 @@
 /**
  * @license Todos os direitos reservados a AZ Informática.
  * @ngdoc overview
- * @name faAula
+ * @name faLess
  *
  * @description
- * Componente responsável pela página home da aplicação.
+ * Componente responsável pela página less da aplicação.
  *
  */
 define(['text!less/view.html'], function (view) {
@@ -47,7 +47,7 @@ define(['text!less/view.html'], function (view) {
                     position: 0,
                     label: 'LESS',
                     href: '#',
-                    class: 'fa-icon fa-icon-empresa',
+                    class: 'fa-icone glyphicon glyphicon-thumbs-up',
                     state: 'container.private.less'
                 });
 
