@@ -20,7 +20,7 @@ module.exports = {
 
     zip: {
         options: {
-            archive: global.params.dist + '/efcaz.zip'
+            archive: global.params.dist + '/fandangos.zip'
         },
         files: [
             {expand: true, cwd: global.params.dist + '/public', src: ['**/*']}
